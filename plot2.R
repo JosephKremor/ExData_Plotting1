@@ -24,6 +24,6 @@ Data = Data[,Sub_metering_3:=as.numeric(Sub_metering_3)]
 
 # plotting# 
 
-png('plot2.png',height = 480,width = 480,units = px)
+png('plot2.png',height = 480,width = 480,units = 'px')
 plot(Data$datetime,Data$Global_active_power,ylab = 'Global Active Power (kilowatts)',type='l')
 dev.off()
