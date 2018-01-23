@@ -24,6 +24,6 @@ Data = Data[,Sub_metering_3:=as.numeric(Sub_metering_3)]
 
 # plotting# 
 # plot 1# 
-png('plot1.png',height = 480,width = 480,units = px)
+png('plot1.png',height = 480,width = 480,units = 'px')
 hist(Data$Global_active_power,col = 'red',main = 'Global Active Power',xlab = 'Global Active Power (kilowatts)')
 dev.off()
