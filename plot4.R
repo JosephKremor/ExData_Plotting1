@@ -24,7 +24,7 @@ Data = Data[,Sub_metering_3:=as.numeric(Sub_metering_3)]
 
 # plotting# 
 
-png('plot4.png',height = 480,width = 480,units = px)
+png('plot4.png',height = 480,width = 480,units = 'px')
 par(mfrow=c(2,2))
 
 
